@@ -1,0 +1,299 @@
+
+
+
+
+
+body{
+
+
+	&.bodyalert-m7{
+
+
+		.innerpgs-t{
+			
+		}
+	}
+}
+
+
+
+
+.innerpgs-t{
+	min-height: 500px;
+	padding: 65px 0 0;
+
+
+	.ttlprdct-tpl-m7{
+		margin-bottom: 14px;
+	}
+
+
+	&.alert-p-m7{
+		padding: 115px 0 65px;
+		/* position: relative; */
+	}
+
+
+	&.notop-m7{
+		padding-top: 0;
+	}
+	
+
+	&.pproduct-tpl-m7{
+		padding: 30px 0;
+
+
+		.main-ctn-m7{
+
+
+			.main-sec-m7{
+				padding-bottom: 14px;
+
+
+				.ttl-prct-m7{
+					display: none;
+				}
+
+
+				.imgexpprct-tpl-m7{
+
+
+				}
+			}
+
+
+			.sec-tabs-m7{
+				padding-top: 25px;
+
+
+				.tabs-tpl-m7{
+
+				}
+			}
+		}
+	}
+
+
+	&.payment-p-m7{
+		padding: 40px 0 100px;
+	}
+	
+
+	&.paydlvry-p-m7{
+		padding: 40px 0 100px;
+	}
+
+
+	&.payway-p-m7{
+		padding: 40px 0 100px;
+	}
+	
+
+	&.payconrirm-p-m7{
+		padding: 40px 0 100px;
+	}
+
+
+	&.cart-p-m7{
+		padding: 65px 0 70px;
+	}
+	
+
+	&.error404-p-m7{
+		padding: 0;
+	}
+
+
+	&.prct-p-m7{
+		padding: 60px 0 60px;
+	}
+
+
+	&.pprct-tpl-m7{
+		padding: 60px 0 60px;
+	}
+
+
+	&.prowish-p-m7{
+		padding: 40px 0 0;
+	}
+
+
+	&.prohistory-p-m7{
+		padding: 40px 0 0;
+	}
+
+
+	&.proreturn-p-m7{
+		padding: 40px 0 0;
+	}
+
+
+	&.pfilter-p-m7{
+		padding: 43px 0 70px;
+	}
+
+
+	&.precord-tpl-m7{
+		padding: 67px 0 40px;
+	}
+
+
+	&.pcontact-m7{
+		padding: 103px 0 30px;
+	}
+
+
+	&.factor-p-s1 {
+		padding: 65px 0 115px;
+
+	}
+}
+
+
+
+
+
+
+@media only screen  and (min-width: 320px) {
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+	.innerpgs-t{
+
+
+		.ttlprdct-tpl-m7{
+			margin-bottom: 24px;
+		}
+
+
+		&.pproduct-tpl-m7{
+			padding: 40px 0;
+		}
+
+
+		&.cart-p-m7{
+			padding: 65px 0 90px;
+		}
+
+
+		&.pfilter-p-m7{
+			padding: 60px 0 90px;
+		}
+
+
+		&.precord-tpl-m7{
+			padding: 100px 0 56px;
+		}
+
+
+		&.pcontact-m7{
+			padding: 140px 0 30px;
+		}
+	}
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+
+	.innerpgs-t{
+
+
+		&.pfilter-p-m7{
+			padding: 60px 0 105px;
+		}
+
+
+		&.pcontact-m7{
+			padding: 140px 0 60px;
+		}
+
+
+		&.prowish-p-m7{
+			padding: 60px 0 0;
+		}
+
+
+		&.prohistory-p-m7{
+			padding: 65px 0 0;
+		}
+
+
+		&.proreturn-p-m7{
+			padding: 65px 0 0;
+		}
+
+
+		&.payment-p-m7{
+			padding: 60px 0 100px;
+		}
+		
+
+		&.paydlvry-p-m7{
+			padding: 60px 0 100px;
+		}
+
+
+		&.payway-p-m7{
+			padding: 60px 0 100px;
+		}
+		
+
+		&.payconrirm-p-m7{
+			padding: 60px 0 100px;
+		}
+	}
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+	
+
+}
+
+
+
+@media only screen and (min-width: 1400px) {
+	
+
+}
+
+
+
+@media only screen and (min-width: 1700px) {
+	
+
+}
+
+
+
+@media (min-height: 650px) {
+
+
+}

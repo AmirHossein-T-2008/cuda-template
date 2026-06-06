@@ -1,0 +1,328 @@
+/* =====================================================
+   VARIABLES - t8
+===================================================== */
+
+$primary: #87509c;
+$secondary: #17c2a4;
+$text-dark: #3c4761;
+$white: #fff;
+$gray: gray;
+$light-gray: rgb(195, 195, 195);
+$line-color: #e5c37f;
+
+/* =====================================================
+   MIXINS - t8
+===================================================== */
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button-outline {
+    border: 4px solid $white;
+    background-color: transparent;
+    color: $white;
+    padding: 10px 25px;
+}
+
+/* =====================================================
+   RESET / BASE - t8
+===================================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: $white;
+    direction: ltr !important;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+/* =====================================================
+   HEADER - t8
+===================================================== */
+
+.header-section {
+    background-color: $primary;
+    padding: 300px 0 100px;
+    width: 100%;
+
+    &-title {
+        font-weight: 700;
+        max-width: 630px;
+        font-size: 26px;
+        margin: 0 auto 30px;
+    }
+}
+
+/* =====================================================
+   NAVBAR - t8
+===================================================== */
+
+.navbar {
+    padding: 30px 0;
+    // width: 100%;
+    background-color: $primary;
+
+    &-toggler {
+        padding: 0;
+
+        &-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+    }
+}
+
+/* =====================================================
+   NAV LIST - t8
+===================================================== */
+
+
+
+.nav-list {
+    gap: 15px;
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 20px 0;
+    width: 100%;
+
+    .nav-a {
+        font-size: 16px;
+
+        &:hover {
+            color: $white;
+            border-radius: 4px;
+            background-color: #643a79;
+        }
+    }
+}
+
+/* =====================================================
+   BUTTON - t8
+===================================================== */
+
+.btn-t8 {
+    @include button-outline;
+}
+
+/* =====================================================
+   DESCRIPTION - t8
+===================================================== */
+
+.description {
+    p {
+        width: 100%;
+        color: #111;
+    }
+}
+
+/* =====================================================
+   SERVICES SECTION - t8
+===================================================== */
+
+.services-section {
+    background-color: $secondary;
+    text-align: center;
+    padding: 60px 0 100px;
+}
+
+
+/* =====================================================
+   TEAM SECTION - t8
+===================================================== */
+
+.team-section {
+    background-color: #e7f1f8;
+    font-family: 'Titillium Web', sans-serif;
+    color: $text-dark;
+    padding: 60px 0 100px;
+
+    .team-card {
+        padding: 15px;
+    }
+
+    .team-info {
+        color: #30bae7;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .team-cards-title {
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
+
+
+/* =====================================================
+   SKILLS SECTION - t8
+===================================================== */
+
+.skills-section {
+    background-color: $white;
+    color: $text-dark;
+    text-align: center;
+    padding: 60px 0 100px;
+
+    .rate {
+        margin: 0 0 80px;
+
+        &-img {
+            max-width: 220px;
+            height: 220px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+    }
+
+    .rate-item {
+        padding: 0 35px;
+        margin-bottom: 30px;
+    }
+}
+
+/* =====================================================
+   PORTFOLIO SECTION - t8
+===================================================== */
+
+.portfolio-section {
+    background-color: #ffdd99 !important;
+    color: #393939;
+    padding: 60px 0 100px;
+
+    &--btn {
+        background-color: rgba(0, 0, 0, 0.08);
+        border: none;
+        color: #393939;
+        @include flex-center;
+
+        &:hover {
+            background-color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    &-btns {
+        margin-bottom: 60px;
+        gap: 10px;
+    }
+}
+
+.portfolio-item {
+    padding: 0 15px;
+
+    img {
+        max-width: 690px;
+    }
+}
+
+
+.nav-link,
+.portfolio--btn,
+.navbar-toggler {
+
+    &:focus,
+    &:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+/* =====================================================
+   NAV COLLAPSE FIX - t8
+===================================================== */
+
+.my-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+
+.header-wrapper {
+    width: 100%;
+    margin: 0;
+    display: contents;
+}
+
+.navbar-toggler {
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+/* =====================================================
+   RESPONSIVE - t8
+===================================================== */
+
+@media (min-width: 576px) {
+    // .nav-set {
+    //     max-width: 540px;
+    // }
+
+    .rate-img {
+        height: 185px !important;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .nav-list {
+        background-color: transparent;
+    }
+
+    .rate-img {
+        height: 220px !important;
+    }
+
+     .my-collapse {
+        position: sticky;
+    }
+
+    // .nav-set {
+    //     max-width: 720px;
+    // }
+}
+
+@media (min-width: 992px) {
+    // .nav-set {
+    //     max-width: 960px;
+    // }
+
+    .rate-img {
+        height: 162px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    // .nav-set {
+    //     max-width: 1140px;
+    // }
+    .rate-img {
+        height: 207px !important;
+    }
+}

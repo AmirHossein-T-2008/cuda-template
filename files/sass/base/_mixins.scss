@@ -1,0 +1,81 @@
+
+
+
+//mixins
+
+
+
+@mixin placeholder-nyn(){
+    &::-webkit-input-placeholder { @content }
+    &:-moz-placeholder           { @content }
+    &::-moz-placeholder          { @content }
+    &:-ms-input-placeholder      { @content }
+}
+
+
+
+
+//start function ond mixin line control to set the max height and overflow hidden to an element with contex
+
+@function px-line-height-to-em( $lineHeight , $fSize ){
+
+    $fSize : $fSize * 1px;
+
+    //earn the real line hight in px
+    $lineHeight : $fSize + ( $lineHeight / 2 );
+
+    //convert px line-height to em
+    @return ( $lineHeight / $fSize ) * 1em;
+
+}
+
+
+
+//END   function ond mixin line control to set the max height and overflow hidden to an element with contex
+
+
+
+
+//start function ond mixin to convert PX to REM
+
+@function rem( $fSize ){
+
+    $fsbase : 16;
+
+    //convert px line-height to em
+    @return ( $fSize / $fsbase ) * 1rem;
+
+}
+
+//END   function ond mixin to convert PX to REM
+
+
+//start function ond mixin to return fontsize in PX
+
+@function px( $fSize ){
+
+
+    //convert px line-height to em
+    @return ( $fSize ) * 1px;
+
+}
+
+
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content;
+    }
+
+    &:-moz-placeholder { /* Firefox 18- */
+        @content;
+    }
+
+    &::-moz-placeholder {  /* Firefox 19+ */
+        @content;
+    }
+
+    &:-ms-input-placeholder {
+        @content;
+    }
+}

@@ -1,0 +1,105 @@
+
+
+
+$border-input-c: $overlay13-c;                          //rgba(#c3c2c2, 0.45)
+$border-input-focus-c: $color23;                        //#1898ec
+$inputs-placeholder-c: $gray32;                         //#c3c2c2
+$inputs-text-c: $gray02;                                //#5b5b5b
+
+
+
+
+
+
+.inputs-t{
+    color: $inputs-text-c;
+    font-size: px($fsb + 2);
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    height: 50px;
+    padding: 9px 17px;
+    line-height: 1.6;
+    border-radius: 15px;
+    border: 1px solid $border-input-c;
+    transition: all 0.2s ease 0s;  
+    outline: none;    
+    appearance: searchfield;
+
+
+    &:focus {
+        border: 2px solid $border-input-focus-c;
+        padding: 8px 16px;
+        //box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+    }
+    
+
+    @include placeholder {
+        color: $inputs-placeholder-c;
+        font-size: px( $fsb + 2 );
+        font-weight: 500;
+    }    
+}
+
+
+
+
+////////////////////////////////////////////
+////////////// START MEDIA /////////////////
+////////////////////////////////////////////
+
+
+
+
+@media only screen and (min-width: 320px) {
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+@media (min-height: 650px) {
+
+
+}
+
+
+
+
+

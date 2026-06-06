@@ -1,0 +1,178 @@
+
+
+
+
+
+
+
+
+
+.radio-t{
+	position: relative;
+
+
+	&.rdibwgt-m7{
+		
+	}
+
+
+	&.selected-t{
+
+
+		/* &::after{
+			transform: scale(1);				
+		} */		
+
+
+		.lbl-n5{
+
+
+			&::after{
+				transform: scale(1);				
+			}
+		}
+	}
+
+
+	/* &::before{
+	    border: 3px solid #bebebe;
+	    border-radius: 50%;
+	    background-size: 98%;
+	    background-position: 0 0;
+	    background-repeat: no-repeat;
+	    width: 20px;
+	    height: 20px;
+	    background-color: transparent;
+	    content: "";
+	    display: inline-block;
+	    position: relative;		
+	}
+
+	&::after{
+		transition: all .2s ease 0s;
+		content: "";
+		position: absolute;
+		background-color: #1387c8;
+		width: 8px;
+		height: 8px;
+		top: 6px;
+		right: 6px;
+		border-radius: 50%;
+		transform: scale(0);		
+	}	 */
+
+
+	.lbl-n5 {
+	    vertical-align: top;	
+	    margin-bottom: 0;
+	    position: relative;
+	    padding-right: 22px;
+
+
+	    &::before{
+		    border: 3px solid #bebebe;
+		    border-radius: 50%;
+		    background-size: 98%;
+		    /* background-position: 0 0; */
+		    /* background-repeat: no-repeat; */
+		    width: 20px;
+		    height: 20px;
+		    /* background-color: transparent; */
+		    content: "";
+		    /* display: inline-block; */
+		    /* position: relative;		 */
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+
+		}
+
+		&::after{
+			transition: all .2s ease 0s;
+			content: "";
+			position: absolute;
+			background-color: #1387c8;
+			width: 8px;
+			height: 8px;
+			top: 6px;
+			right: 6px;
+			border-radius: 50%;
+			transform: scale(0);		
+		}	
+	}
+
+
+	input[type=radio]{
+
+
+	    &.inputs-t{
+	        display: none;
+	    }
+	}		
+}
+
+
+
+
+
+
+////////////////////////////////////////////
+////////////// START MEDIA /////////////////
+////////////////////////////////////////////
+
+
+
+
+
+@media only screen and (min-width: 320px) {
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+@media (min-height: 650px) {
+
+
+}
+
+
+
+
+

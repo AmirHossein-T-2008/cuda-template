@@ -1,0 +1,265 @@
+
+
+
+
+
+
+
+$white-c: #FFFFFF !default;    //
+$black-c: #000000 !default;    //
+
+
+
+
+
+
+//tem colors:
+
+$tem-main-c:   #3991E9 !default;
+$tem-second-c: #49bb5e !default;
+$tem-third-c:  #297770 !default;
+$tem-fourth-c: #a3955b !default;
+$tem-fifth-c: #3C428C !default;
+
+
+//status colors
+$success-c: #40dd7f !default;
+$warning-c: #ffbc1f !default;
+$danger-c: #ff6161 !default;
+
+
+
+
+
+
+
+
+
+//site colors
+
+$color00: #000000 !default;     
+$color01: #ffffff !default;     
+/* $color03: #297770 !default;   */
+$color04: #a3955b !default;  
+
+
+$color23: #1898ec !default;
+
+$color25: #49bb5e !default;
+
+
+
+$color37: #FB0B73 !default;
+
+
+
+$color48: #2c3340 !default;   
+$color49: #676f78 !default;   
+
+
+$color90: #FC315A !default;   
+
+
+
+
+
+
+//main-gray-colors
+$main-gray00: #333333 !default;
+$main-gray01: #5b5b5b !default;
+$main-gray02: #919191 !default;
+$main-gray03: #c3c2c2 !default;
+
+
+
+
+
+
+
+
+
+//gray-colors
+
+$gray01: #ecebeb !default;
+$gray02: #d4d4d4 !default;
+$gray03: #e0dfdf !default;
+
+
+
+$gray11: #cccccc !default;
+
+
+$gray38: #b1b1b1 !default;
+$gray39: #acacac !default;
+
+
+
+
+
+
+
+
+
+
+
+//overlay-colors
+
+/* white-overlay-colors */
+$overlay-white-per-00-c: rgba($white-c, 0.00) !default; //#FFFFFF
+$overlay-white-per-05-c: rgba($white-c, 0.05) !default; //#FFFFFF
+$overlay-white-per-10-c: rgba($white-c, 0.10) !default; //#FFFFFF
+$overlay-white-per-15-c: rgba($white-c, 0.15) !default; //#FFFFFF
+$overlay-white-per-20-c: rgba($white-c, 0.20) !default; //#FFFFFF
+$overlay-white-per-25-c: rgba($white-c, 0.25) !default; //#FFFFFF
+$overlay-white-per-30-c: rgba($white-c, 0.30) !default; //#FFFFFF
+$overlay-white-per-35-c: rgba($white-c, 0.35) !default; //#FFFFFF
+$overlay-white-per-40-c: rgba($white-c, 0.40) !default; //#FFFFFF
+$overlay-white-per-45-c: rgba($white-c, 0.45) !default; //#FFFFFF
+$overlay-white-per-50-c: rgba($white-c, 0.50) !default; //#FFFFFF
+$overlay-white-per-55-c: rgba($white-c, 0.55) !default; //#FFFFFF
+$overlay-white-per-60-c: rgba($white-c, 0.60) !default; //#FFFFFF
+$overlay-white-per-65-c: rgba($white-c, 0.65) !default; //#FFFFFF
+$overlay-white-per-70-c: rgba($white-c, 0.70) !default; //#FFFFFF
+$overlay-white-per-75-c: rgba($white-c, 0.75) !default; //#FFFFFF
+$overlay-white-per-80-c: rgba($white-c, 0.80) !default; //#FFFFFF
+$overlay-white-per-85-c: rgba($white-c, 0.85) !default; //#FFFFFF
+$overlay-white-per-90-c: rgba($white-c, 0.90) !default; //#FFFFFF
+$overlay-white-per-95-c: rgba($white-c, 0.95) !default; //#FFFFFF
+
+
+
+
+
+/* black-overlay-colors */
+$overlay-black-per-00-c: rgba($black-c, 0.00) !default; //#000000
+$overlay-black-per-02-c: rgba($black-c, 0.02) !default; //#000000
+$overlay-black-per-03-c: rgba($black-c, 0.03) !default; //#000000
+$overlay-black-per-04-c: rgba($black-c, 0.04) !default; //#000000
+$overlay-black-per-05-c: rgba($black-c, 0.05) !default; //#000000
+$overlay-black-per-07-c: rgba($black-c, 0.07) !default; //#000000
+$overlay-black-per-08-c: rgba($black-c, 0.08) !default; //#000000
+$overlay-black-per-10-c: rgba($black-c, 0.10) !default; //#000000
+$overlay-black-per-15-c: rgba($black-c, 0.15) !default; //#000000
+$overlay-black-per-20-c: rgba($black-c, 0.20) !default; //#000000
+$overlay-black-per-25-c: rgba($black-c, 0.25) !default; //#000000
+$overlay-black-per-30-c: rgba($black-c, 0.30) !default; //#000000
+$overlay-black-per-40-c: rgba($black-c, 0.40) !default; //#000000
+$overlay-black-per-45-c: rgba($black-c, 0.45) !default; //#000000
+$overlay-black-per-50-c: rgba($black-c, 0.50) !default; //#000000
+$overlay-black-per-55-c: rgba($black-c, 0.55) !default; //#000000
+$overlay-black-per-60-c: rgba($black-c, 0.60) !default; //#000000
+$overlay-black-per-65-c: rgba($black-c, 0.65) !default; //#000000
+$overlay-black-per-70-c: rgba($black-c, 0.70) !default; //#000000
+$overlay-black-per-75-c: rgba($black-c, 0.75) !default; //#000000
+$overlay-black-per-80-c: rgba($black-c, 0.80) !default; //#000000
+$overlay-black-per-85-c: rgba($black-c, 0.85) !default; //#000000
+$overlay-black-per-90-c: rgba($black-c, 0.90) !default; //#000000
+$overlay-black-per-95-c: rgba($black-c, 0.95) !default; //#000000
+
+
+
+
+
+
+
+
+
+
+
+
+/* tem-main-overlay-colors */
+$overlay-tem-main-per-05-c: rgba($tem-main-c, 0.05) !default; //#3991E9
+$overlay-tem-main-per-08-c: rgba($tem-main-c, 0.08) !default; //#3991E9
+$overlay-tem-main-per-80-c: rgba($tem-main-c, 0.80) !default; //#3991E9
+
+
+
+
+
+
+
+/* tem-second-overlay-colors */
+$overlay-tem-second-per-00-c: rgba($tem-second-c, 0.00) !default; //#49bb5e
+/* $overlay90-c: rgba($tem-second-c, 0.00) !default; //#49bb5e */
+/* $overlay91-c: rgba($tem-second-c, 0.02) !default; //#49bb5e */
+/* $overlay92-c: rgba($tem-second-c, 0.03) !default; //#49bb5e */
+/* $overlay93-c: rgba($tem-second-c, 0.04) !default; //#49bb5e */
+/* $overlay94-c: rgba($tem-second-c, 0.05) !default; //#49bb5e */
+/* $overlay95-c: rgba($tem-second-c, 0.08) !default; //#49bb5e */
+/* $overlay96-c: rgba($tem-second-c, 0.10) !default; //#49bb5e */
+/* $overlay97-c: rgba($tem-second-c, 0.15) !default; //#49bb5e */
+/* $overlay98-c: rgba($tem-second-c, 0.20) !default; //#49bb5e */
+/* $overlay99-c: rgba($tem-second-c, 0.25) !default; //#49bb5e */
+/* $overlay100-c: rgba($tem-second-c, 0.30) !default; //#49bb5e */
+/* $overlay101-c: rgba($tem-second-c, 0.40) !default; //#49bb5e */
+/* $overlay102-c: rgba($tem-second-c, 0.45) !default; //#49bb5e */
+/* $overlay103-c: rgba($tem-second-c, 0.50) !default; //#49bb5e */
+/* $overlay104-c: rgba($tem-second-c, 0.55) !default; //#49bb5e */
+/* $overlay105-c: rgba($tem-second-c, 0.60) !default; //#49bb5e */
+/* $overlay106-c: rgba($tem-second-c, 0.65) !default; //#49bb5e */
+/* $overlay107-c: rgba($tem-second-c, 0.70) !default; //#49bb5e */
+/* $overlay108-c: rgba($tem-second-c, 0.75) !default; //#49bb5e */
+/* $overlay109-c: rgba($tem-second-c, 0.80) !default; //#49bb5e */
+/* $overlay110-c: rgba($tem-second-c, 0.85) !default; //#49bb5e */
+/* $overlay111-c: rgba($tem-second-c, 0.90) !default; //#49bb5e */
+/* $overlay112-c: rgba($tem-second-c, 0.95) !default; //#49bb5e */
+
+
+
+
+
+
+
+/* main-gray00-overlay-colors */
+$overlay-main-gray00-per-00-c: rgba($main-gray00, 0.00) !default; //#333333
+$overlay-main-gray00-per-02-c: rgba($main-gray00, 0.02) !default; //#333333
+$overlay-main-gray00-per-05-c: rgba($main-gray00, 0.05) !default; //#333333
+
+
+
+
+
+/* main-gray01-overlay-colors */
+$overlay-main-gray01-per-00-c: rgba($main-gray01, 0.00) !default; //#5b5b5b
+$overlay-main-gray01-per-02-c: rgba($main-gray01, 0.02) !default; //#5b5b5b
+
+$overlay-main-gray01-per-10-c: rgba($main-gray01, 0.10) !default; //#5b5b5b
+
+
+$overlay-main-gray01-per-80-c: rgba($main-gray01, 0.80) !default; //#5b5b5b
+$overlay-main-gray01-per-90-c: rgba($main-gray01, 0.90) !default; //#5b5b5b
+
+
+
+
+
+
+/* main-gray02-overlay-colors */
+$overlay-main-gray01-per-00-c: rgba($main-gray02, 0.00) !default; //#919191
+
+
+
+
+/* other overlay colors: */
+
+
+
+
+
+
+
+
+
+
+
+
+
+//social networks main colors
+
+/* $rss-c: #fc5c20 !default; */
+
+//certain colors
+
+
+/* $inputs-border-color-nyn : #d4dbe0 !default; */
+

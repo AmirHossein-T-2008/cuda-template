@@ -1,0 +1,26 @@
+{
+  "name": "startgrunt",
+  "version": "0.0.1",
+  "description": "Learning Grunt and Sass",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "grunt": "^1.2.0",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-postcss": "latest",
+    "grunt-sass": "^2.0.0",
+    "grunt-svgmin": "^6.0.0",
+    "grunt-svgstore": "^2.0.0",
+    "grunt-webfont": "^1.6.0",
+    "load-grunt-tasks": "^3.5.2",
+    "sass": "^1.54.0"
+  },
+  "dependencies": {
+    "grunt-image-embed": "^0.3.3",
+    "imagemin-mozjpeg": "^9.0.0"
+  }
+}

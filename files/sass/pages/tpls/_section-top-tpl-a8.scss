@@ -1,0 +1,28 @@
+.sections-top {
+    &-title {
+        font-weight: 700;
+        &::after {
+            content: '';
+            display: flex;
+            margin: 0 auto 30px;
+            background-color: $line-color;
+            margin-top: 20px;
+            width: 95px;
+            height: 8px;
+        }
+
+        &--one::after {
+            background-color: #19967f;
+        }
+
+        &--two::after {
+            background-color: #a8b0b6;
+        }
+    }
+
+
+    &-desc {
+        max-width: 580px;
+        margin: 0 auto 55px;
+    }
+}

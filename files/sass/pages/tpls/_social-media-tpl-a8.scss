@@ -1,0 +1,14 @@
+.socialmedia-t8 {
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+    @include flex-center;
+
+    li {
+        padding: 8px;
+    }
+    &-icon{
+        color: $white;
+        font-size: 40px;
+    }
+}

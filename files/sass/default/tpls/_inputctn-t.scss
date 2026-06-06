@@ -1,0 +1,392 @@
+
+
+
+
+$icon-pass-c: $gray11;                            //#cccccc
+$icon-pass-bold-c: $gray02;                       //#5b5b5b
+$inputs-error-c: $color17;                        //#ff6161
+$icon-search-c: $overlay24-c;                     //rgba($gray02, 0.4)  #5b5b5b
+$icon-search-searched-c: $color01;                //#ffffff
+$back-icon-search-c: $gray36;                     //#fbfbfb
+$back-icon-search-searched-c: $color62;           //#3991E9
+$back-input-search-c: $overlay43-c;               //rgba($gray02, 0.08) #5b5b5b
+$back-checkbox-animation-c: $gray37;              //#E6E6E6
+$back-checkbox-animation-selected-c: $color73;    //#60A7ED
+$back-box-in-checkbox-animation-c: $color01;      //#ffffff
+$background-tittle-pass-c: $color01;             // #ffffff
+$text-tittle-pass-c: $gray02;                    // #5b5b5b
+$icon-pass-bold-c: $gray02;                      // #5b5b5b
+$icon-pass-c: $gray11;                           // #cccccc
+
+
+
+
+
+
+
+
+.inputctn-t{
+    text-align: right;
+
+
+    &.anim-m7{
+        display: inline-block;
+
+
+        .checkbox-t{
+            display: inline-block;
+            vertical-align: middle;
+            padding-right: 0;
+            width: 43px;
+            height: 21px;
+            margin-bottom: 0;
+
+
+            &.selected-t{
+
+
+                &::before{
+                    background-color: $back-checkbox-animation-selected-c;
+                    background-image: none;
+                }
+
+
+                &::after{
+                    transform: translate(145%);
+                }
+            }
+
+
+            &::before{
+                width: 43px;
+                height: 21px;
+                border: none;
+                border-radius: 7px;
+                -webkit-transition: all .4s ease 0s;
+                transition: all .4s ease 0s;
+                background-color: $back-checkbox-animation-c;
+                background-image: none;
+            }
+
+
+            &::after{
+                content: "";
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                background-color: $back-box-in-checkbox-animation-c;
+                width: 15px;
+                height: 15px;
+                border-radius: 5px;
+                /* transform: scale(0.9); */
+                transition: .5s ease;
+            }
+        }
+    }
+
+
+    &.pass-m7{
+
+
+        .inputs-t{
+            padding-left: 50px;
+        }
+
+
+        .nf{
+            float: left;
+            position: relative;
+            bottom: 33px;
+            left: 20px;
+            height: 18px;
+            font-size: 17px;
+            color: #5b5b5b;
+            z-index: 2;
+            transition: all .4s;
+            cursor: pointer;
+
+
+            &.bold{
+                color: $icon-pass-c;
+            }
+        }
+    }
+
+
+    &.has-error , .has-error{
+
+
+        .inputs-t{
+            border: 2px solid $inputs-error-c;
+            padding: 8px 16px;                     
+        }
+
+        textarea{
+
+
+            &.inputs-t{
+                padding-top: 11px;      
+            }
+        }
+
+		.help-text , .help-block , .help-block-error{
+			color: $inputs-error-c;
+			font-size: px( $fsb );
+			margin-top: 9px;
+			font-weight: 500;   
+		}     
+    }
+
+
+    &.srchctn-m7{
+        position: relative;
+
+
+        &.js-typing-m7{
+
+
+            .btnsrch-m7{
+
+
+                path{
+                    fill: $back-icon-search-searched-c;
+                }
+
+
+                .nf{
+                    color: $icon-search-searched-c;
+                }
+            }
+        }
+
+
+        .inputs-t{
+            background-color: $back-input-search-c;
+            padding-left: 54px;
+        }
+
+
+        .btnsrch-m7{
+            position: absolute;
+            left: 8px;
+            top: 8px;
+            padding: 0;
+
+
+            svg{
+                display: inline-block;
+                vertical-align: middle;
+                width: 34px;
+                height: 34px;
+            }
+
+
+            path{
+                fill: $back-icon-search-c;
+                transition: all 0.3s ease 0s;
+            }
+
+
+            .nf{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: $icon-search-c;
+                font-size: px($fsb + 2);
+                transition: all 0.3s ease 0s;
+            }
+        }
+    }
+
+
+    &.toplbl-m7{
+        position: relative;
+        z-index: 1000;
+
+
+        &:focus{
+            display: none;
+        }
+
+
+        &.active-m7{
+
+
+            .lbl-n5{
+                top: -11px;
+            }
+        }
+        
+
+
+       /*  label{
+
+
+            &:focus{
+
+
+                .lbl-n5{
+                    top: -11px;
+                }
+
+
+                .password-icon{
+                    display: inline-block;
+                }
+            }
+        } */
+
+
+
+
+
+        .inputs-t:valid + .lbl-n5,
+        .inputs-t:focus + .lbl-n5 {
+            top: -11px;
+        }
+
+        
+
+
+
+      /*   input:valid + label,
+        input:focus + label {
+          color: #26a69a;
+          font-size: .8rem;
+          top: -30px;
+          pointer-events: none;
+        } */
+
+
+
+
+        .inputs-t{
+
+
+           /*  &:valid{
+
+
+                ~.lbl-n5{
+                    top: -11px;
+                }
+            } */
+
+
+           /*  &:focus{
+
+
+                ~.lbl-n5{
+                    top: -11px;
+                }
+
+
+                ~.password-icon{
+                    display: inline-block;
+                }
+            } */
+        }
+
+
+        .lbl-n5{
+            position: absolute;
+            content: "";
+            display: inline-block;
+            top: 18px;
+            right: 14px;
+            background-color: $background-tittle-pass-c;
+            width: fit-content;
+            padding: 0 5px;
+            color: $text-tittle-pass-c;
+            transition: .2s ease all;
+            pointer-events: none;
+            z-index: 10;
+        }
+    }
+
+
+    &.pass-m7{
+
+
+        .nf{
+            float: left;
+            position: relative;
+            bottom: 33px;
+            left: 20px;
+            height: 18px;
+            font-size: 17px;
+            color: $icon-pass-bold-c;
+            z-index: 2; 
+            transition: all 0.4s;
+            cursor: pointer;
+
+
+            &.bold{
+                color: $icon-pass-c;
+            }
+        }
+    }
+}
+
+
+
+
+
+////////////////////////////////////////////
+////////////// START MEDIA /////////////////
+////////////////////////////////////////////
+
+
+
+
+@media only screen and (min-width: 320px) {
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+@media (min-height: 650px) {
+
+
+}
+
+
+
+
+

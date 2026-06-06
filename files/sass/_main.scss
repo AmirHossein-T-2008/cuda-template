@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+
+//base variables
+@import "base/mixins";
+@import "base/vars";
+@import "base/fonts";
+@import "base/colors";
+@import "default/default";
+@import "default/tools";
+
+
+//main common tpls
+/* @import "default/tpls/inputctn-t";	
+@import "default/tpls/inputs-t";	
+@import "default/tpls/checkbox-t";	
+@import "default/tpls/radio-t";	
+@import "default/tpls/innerpgs-t";	
+@import "default/tpls/digitinpt-t";	 */
+
+
+
+
+//plugins
+/* @import "pages/plugins/animate"; */
+
+
+
+//inner pages
+//@import "pages/inner-pages/"
+
+/* @import "pages/inner-pages/prdct-p-m7"; */
+
+
+
+
+
+
+
+//tpls
+
+/* @import "pages/tpls/header-tpl-m7"; */
+@import "pages/tpls/prcunt-tpl-n5";
+@import "pages/tpls/amir-tpl";
+@import "pages/tpls/section-top-tpl-a8";
+@import "pages/tpls/card-tpl-a8";
+@import "pages/tpls/social-media-tpl-a8";
+
+
+
+
+/* pages */
+
+/* @import "pages/tpls/pcart-p-m7"; */
