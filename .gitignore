@@ -1,0 +1,12 @@
+# exclude everything
+node_modules/*
+
+files/css/icons.css
+files/css/styles.css
+files/build/*
+.idea
+
+
+## exception to the rule
+#!somefolder/.gitkeep 
+!files/build/.gitkeep 
