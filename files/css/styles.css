@@ -994,6 +994,14 @@ p {
   box-shadow: none !important; }
 
 /* =====================================================
+   ABOUT-US SECTION - t8
+===================================================== */
+.aboutUs-section {
+  background-color: #d74680;
+  color: #fff;
+  padding: 60px 0 100px; }
+
+/* =====================================================
    NAV COLLAPSE FIX - t8
 ===================================================== */
 .my-collapse {
@@ -1050,6 +1058,8 @@ p {
     background-color: #19967f; }
   .sections-top-title--two::after {
     background-color: #a8b0b6; }
+  .sections-top-title--three::after {
+    background-color: #722645; }
 
 .sections-top-desc {
   max-width: 580px;
@@ -1098,6 +1108,27 @@ p {
   .socialmedia-t8-icon {
     color: #fff;
     font-size: 40px; }
+
+.aboutUs-tpl-a8 {
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 50px; }
+  .aboutUs-tpl-a8-img {
+    width: 250px;
+    margin: 0 auto; }
+  .aboutUs-tpl-a8-wrapper {
+    margin: 18px auto; }
+  .aboutUs-tpl-a8-desc {
+    margin-bottom: 25px;
+    max-width: 320px;
+    font-size: 18px; }
+  .aboutUs-tpl-a8-name {
+    font-weight: 900;
+    margin-bottom: 25px;
+    font-size: 18px; }
+  .aboutUs-tpl-a8-work {
+    font-size: 18px; }
 
 /* pages */
 /* @import "pages/tpls/pcart-p-m7"; */
