@@ -3,7 +3,8 @@ node_modules/*
 
 files/css/icons.css
 files/css/styles.css
-files/build/*
+files/build/
+!files/build/fonts/
 .idea
 
 

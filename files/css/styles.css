@@ -947,14 +947,12 @@ p {
   background-color: #fff;
   color: #3c4761;
   text-align: center;
-  padding: 60px 0 100px; }
-  .skills-section .rate {
-    margin: 0 0 80px; }
-    .skills-section .rate-img {
-      max-width: 220px;
-      height: 220px;
-      margin: 0 auto;
-      margin-bottom: 40px; }
+  padding: 60px 0; }
+  .skills-section .rate-img {
+    max-width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    margin-bottom: 40px; }
   .skills-section .rate-item {
     padding: 0 35px;
     margin-bottom: 30px; }
@@ -981,7 +979,8 @@ p {
     gap: 10px; }
 
 .portfolio-item {
-  padding: 0 15px; }
+  padding: 0 15px;
+  margin-bottom: 60px; }
   .portfolio-item img {
     max-width: 690px; }
 
