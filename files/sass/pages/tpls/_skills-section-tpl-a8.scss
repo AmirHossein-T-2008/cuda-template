@@ -1,0 +1,23 @@
+.skillssection-tpl-a8 {
+    background-color: $white;
+    color: $text-dark;
+    text-align: center;
+    padding: 60px 0;
+
+    .rate-img {
+        max-width: 220px;
+        height: 220px;
+        margin: 0 auto 40px;
+        display: block;
+    }
+
+    .rate-item {
+        padding: 0 35px;
+        margin-bottom: 30px;
+
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}

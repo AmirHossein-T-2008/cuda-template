@@ -4,11 +4,23 @@
     margin: 0 auto;
     @include flex-center;
 
-    li {
+    &-li {
         padding: 8px;
+
+        a {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: #bdd1df;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
-    &-icon{
+
+    &-icon {
         color: $white;
         font-size: 40px;
+
     }
 }

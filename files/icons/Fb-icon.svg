@@ -1,16 +1,3 @@
 <svg id="Fb_icon" data-name="Fb icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #bdd1df;
-      }
-
-      .cls-2 {
-        fill: #fff;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <circle id="base" class="cls-1" cx="16" cy="16" r="16"/>
-  <path id="Facebook_Icon" data-name="Facebook Icon" class="cls-2" d="M1098.98,2106.94h-1.65a3.035,3.035,0,0,0-3.32,3.24v1.81h-1.99V2114h1.99l-0.03,8.01h3.03v-7.98l1.74-.03,0.63-2.01h-2.4v-2.06a0.932,0.932,0,0,1,1.05-.92h0.94Z" transform="translate(-1080 -2098)"/>
+  <path fill="#fff" id="Facebook_Icon" data-name="Facebook Icon" class="cls-2" d="M1098.98,2106.94h-1.65a3.035,3.035,0,0,0-3.32,3.24v1.81h-1.99V2114h1.99l-0.03,8.01h3.03v-7.98l1.74-.03,0.63-2.01h-2.4v-2.06a0.932,0.932,0,0,1,1.05-.92h0.94Z" transform="translate(-1080 -2098)"/>
 </svg>

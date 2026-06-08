@@ -1,0 +1,58 @@
+.teamsection-tpl-a8 {
+    background-color: #e7f1f8;
+    font-family: 'Titillium Web', sans-serif;
+    color: $text-dark;
+    padding: 60px 0 100px;
+
+    &-img{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .team-info {
+        color: #30bae7;
+        font-size: 16px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .team-cards-title {
+        font-weight: 700;
+        font-size: 20px;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .teamcard-tpl-a8-text {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .socialmedia-t8 {
+        list-style-type: none;
+        width: 100%;
+        margin: 0 auto;
+        @include flex-center;
+
+        li {
+            padding: 8px;
+
+            a {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                background-color: #bdd1df;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        &-icon {
+            color: $white;
+            font-size: 40px;
+
+        }
+    }
+}

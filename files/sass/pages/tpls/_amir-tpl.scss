@@ -137,68 +137,6 @@ p {
     }
 }
 
-/* =====================================================
-   SERVICES SECTION - t8
-===================================================== */
-
-.services-section {
-    background-color: $secondary;
-    text-align: center;
-    padding: 60px 0 100px;
-}
-
-
-/* =====================================================
-   TEAM SECTION - t8
-===================================================== */
-
-.team-section {
-    background-color: #e7f1f8;
-    font-family: 'Titillium Web', sans-serif;
-    color: $text-dark;
-    padding: 60px 0 100px;
-
-    .team-card {
-        padding: 15px;
-    }
-
-    .team-info {
-        color: #30bae7;
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
-    .team-cards-title {
-        font-weight: 700;
-        font-size: 22px;
-    }
-}
-
-
-/* =====================================================
-   SKILLS SECTION - t8
-===================================================== */
-
-.skills-section {
-    background-color: $white;
-    color: $text-dark;
-    text-align: center;
-    padding: 60px 0;
-
-    .rate {
-        &-img {
-            max-width: 220px;
-            height: 220px;
-            margin: 0 auto;
-            margin-bottom: 40px;
-        }
-    }
-
-    .rate-item {
-        padding: 0 35px;
-        margin-bottom: 30px;
-    }
-}
 
 /* =====================================================
    PORTFOLIO SECTION - t8
@@ -309,7 +247,9 @@ p {
 
     .my-collapse {
         position: sticky;
+
     }
+
 
     // .nav-set {
     //     max-width: 720px;
