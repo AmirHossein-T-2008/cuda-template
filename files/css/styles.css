@@ -978,6 +978,9 @@ p {
   outline: none;
   box-shadow: none; }
 
+.socialmedia-t8-icon {
+  font-size: 30px; }
+
 /* =====================================================
    RESPONSIVE - t8
 ===================================================== */
@@ -1057,19 +1060,18 @@ p {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .socialmedia-t8-li {
+  .socialmedia-t8 li {
     padding: 8px; }
-    .socialmedia-t8-li a {
-      width: 32px;
-      height: 32px;
+    .socialmedia-t8 li a {
+      width: 35px;
+      height: 35px;
       border-radius: 50%;
       background-color: #bdd1df;
       display: flex;
       justify-content: center;
       align-items: center; }
   .socialmedia-t8-icon {
-    color: #fff;
-    font-size: 40px; }
+    color: #fff; }
 
 .aboutUs-tpl-a8 {
   font-style: italic;
@@ -1172,26 +1174,6 @@ p {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 20px; }
-  .teamsection-tpl-a8 .socialmedia-t8 {
-    list-style-type: none;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .teamsection-tpl-a8 .socialmedia-t8 li {
-      padding: 8px; }
-      .teamsection-tpl-a8 .socialmedia-t8 li a {
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
-        background-color: #bdd1df;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-    .teamsection-tpl-a8 .socialmedia-t8-icon {
-      color: #fff;
-      font-size: 40px; }
 
 /* pages */
 /* @import "pages/tpls/pcart-p-m7"; */
