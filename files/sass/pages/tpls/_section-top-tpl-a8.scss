@@ -1,6 +1,9 @@
 .sections-top {
     &-title {
         font-weight: 700;
+        font-size: 30px;
+        line-height: normal;
+
         &::after {
             content: '';
             display: flex;
@@ -28,5 +31,8 @@
     &-desc {
         max-width: 580px;
         margin: 0 auto 55px;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 1.5;
     }
 }

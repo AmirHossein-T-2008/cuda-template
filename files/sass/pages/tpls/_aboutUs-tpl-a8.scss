@@ -2,19 +2,19 @@
     font-style: italic;
     display: flex;
     flex-direction: column;
-    padding: 25px 50px;
+    padding: 25px 20px;
 
     &-img {
-        width: 250px;
+        width: 150px;
         margin: 0 auto;
     }
 
     &-wrapper {
-        margin: 18px auto;
+        margin: 18px;
     }
 
     &-desc {
-        margin-bottom: 25px;
+        margin: 0 auto 25px;
         max-width: 320px;
         font-size: 18px;
     }

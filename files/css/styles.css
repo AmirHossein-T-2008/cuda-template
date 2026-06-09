@@ -892,7 +892,8 @@ p {
   padding: 20px 0;
   width: 100%; }
   .nav-list .nav-a {
-    font-size: 16px; }
+    font-size: 18px;
+    padding: 0; }
     .nav-list .nav-a:hover {
       color: #fff;
       border-radius: 4px;
@@ -960,17 +961,18 @@ p {
 /* =====================================================
    NAV COLLAPSE FIX - t8
 ===================================================== */
-.my-collapse {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  padding: 0; }
-
 .header-wrapper {
   width: 100%;
   margin: 0;
-  display: contents; }
+  display: contents;
+  position: relative; }
+
+.my-collapse {
+  padding: 0;
+  position: absolute;
+  top: 170%;
+  left: 0;
+  right: 0; }
 
 .navbar-toggler:focus {
   outline: none;
@@ -979,29 +981,22 @@ p {
 /* =====================================================
    RESPONSIVE - t8
 ===================================================== */
-@media (min-width: 576px) {
-  .rate-img {
-    height: 185px !important; } }
-
 @media (min-width: 768px) {
   .nav-list {
     background-color: transparent; }
-  .rate-img {
-    height: 220px !important; }
   .my-collapse {
-    position: -webkit-sticky;
-    position: sticky; } }
+    position: unset; } }
 
 @media (min-width: 992px) {
-  .rate-img {
-    height: 162px !important; } }
-
-@media (min-width: 1200px) {
-  .rate-img {
-    height: 207px !important; } }
+  .aboutUs-tpl-a8 {
+    width: 150px;
+    flex-direction: row !important;
+    text-align: left !important; } }
 
 .sections-top-title {
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 30px;
+  line-height: normal; }
   .sections-top-title::after {
     content: '';
     display: flex;
@@ -1019,7 +1014,10 @@ p {
 
 .sections-top-desc {
   max-width: 580px;
-  margin: 0 auto 55px; }
+  margin: 0 auto 55px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5; }
 
 .card-tpl-a8 {
   background-color: transparent;
@@ -1077,14 +1075,14 @@ p {
   font-style: italic;
   display: flex;
   flex-direction: column;
-  padding: 25px 50px; }
+  padding: 25px 20px; }
   .aboutUs-tpl-a8-img {
-    width: 250px;
+    width: 150px;
     margin: 0 auto; }
   .aboutUs-tpl-a8-wrapper {
-    margin: 18px auto; }
+    margin: 18px; }
   .aboutUs-tpl-a8-desc {
-    margin-bottom: 25px;
+    margin: 0 auto 25px;
     max-width: 320px;
     font-size: 18px; }
   .aboutUs-tpl-a8-name {
@@ -1140,15 +1138,17 @@ p {
   padding: 60px 0; }
   .skillssection-tpl-a8 .rate-img {
     max-width: 220px;
-    height: 220px;
     margin: 0 auto 40px;
     display: block; }
   .skillssection-tpl-a8 .rate-item {
-    padding: 0 35px;
+    text-align: center;
+    padding: 0 15px;
     margin-bottom: 30px; }
-    .skillssection-tpl-a8 .rate-item h3 {
+    .skillssection-tpl-a8 .rate-item .rate-title {
       font-size: 18px;
-      font-weight: 600; }
+      font-weight: 600;
+      color: #3c4761;
+      line-height: 1.5; }
 
 .teamsection-tpl-a8 {
   background-color: #e7f1f8;

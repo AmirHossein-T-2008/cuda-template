@@ -6,18 +6,20 @@
 
     .rate-img {
         max-width: 220px;
-        height: 220px;
         margin: 0 auto 40px;
         display: block;
     }
 
     .rate-item {
-        padding: 0 35px;
+        text-align: center;
+        padding: 0 15px;
         margin-bottom: 30px;
 
-        h3 {
+        .rate-title {
             font-size: 18px;
             font-weight: 600;
+            color: $text-dark;
+            line-height: 1.5;
         }
     }
 }

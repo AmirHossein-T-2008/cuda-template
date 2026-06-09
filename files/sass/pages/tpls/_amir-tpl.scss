@@ -9,6 +9,7 @@ $white: #fff;
 $gray: gray;
 $light-gray: rgb(195, 195, 195);
 $line-color: #e5c37f;
+$text-black: #393939;
 
 /* =====================================================
    MIXINS - t8
@@ -108,8 +109,8 @@ p {
     width: 100%;
 
     .nav-a {
-        font-size: 16px;
-
+        font-size: 18px;
+        padding: 0;
         &:hover {
             color: $white;
             border-radius: 4px;
@@ -200,19 +201,20 @@ p {
    NAV COLLAPSE FIX - t8
 ===================================================== */
 
-.my-collapse {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 0;
-}
-
 .header-wrapper {
     width: 100%;
     margin: 0;
     display: contents;
+    position: relative;
 }
+.my-collapse {
+    padding: 0;
+    position: absolute;
+    top: 170%;
+    left: 0;
+    right: 0;
+}
+
 
 .navbar-toggler {
     &:focus {
@@ -225,53 +227,24 @@ p {
    RESPONSIVE - t8
 ===================================================== */
 
-@media (min-width: 576px) {
-    // .nav-set {
-    //     max-width: 540px;
-    // }
-
-    .rate-img {
-        height: 185px !important;
-    }
-}
+// @media (min-width: 576px) {}
 
 
 @media (min-width: 768px) {
     .nav-list {
         background-color: transparent;
     }
-
-    .rate-img {
-        height: 220px !important;
+    .my-collapse{
+        position: unset;
     }
-
-    .my-collapse {
-        position: sticky;
-
-    }
-
-
-    // .nav-set {
-    //     max-width: 720px;
-    // }
 }
 
 @media (min-width: 992px) {
-    // .nav-set {
-    //     max-width: 960px;
-    // }
-
-    .rate-img {
-        height: 162px !important;
+    .aboutUs-tpl-a8{
+        width: 150px;
+        flex-direction: row !important;
+        text-align: left !important;
     }
 }
 
-@media (min-width: 1200px) {
-
-    // .nav-set {
-    //     max-width: 1140px;
-    // }
-    .rate-img {
-        height: 207px !important;
-    }
-}
+// @media (min-width: 1200px) {}
