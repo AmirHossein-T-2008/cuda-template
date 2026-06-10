@@ -60,6 +60,11 @@ p {
 
 }
 
+.container {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
 /* =====================================================
    HEADER - t8
 ===================================================== */
@@ -111,6 +116,7 @@ p {
     .nav-a {
         font-size: 18px;
         padding: 0;
+
         &:hover {
             color: $white;
             border-radius: 4px;
@@ -207,6 +213,7 @@ p {
     display: contents;
     position: relative;
 }
+
 .my-collapse {
     padding: 0;
     position: absolute;
@@ -223,9 +230,11 @@ p {
     }
 }
 
-.socialmedia-t8-icon{
+.socialmedia-t8-icon {
     font-size: 30px;
 }
+
+
 
 /* =====================================================
    RESPONSIVE - t8
@@ -238,16 +247,20 @@ p {
     .nav-list {
         background-color: transparent;
     }
-    .my-collapse{
+
+    .my-collapse {
         position: unset;
     }
 }
 
 @media (min-width: 992px) {
-    .aboutUs-tpl-a8{
+    .aboutUs-tpl-a8 {
         width: 150px;
         flex-direction: row !important;
         text-align: left !important;
+    }
+    .card{
+        padding: 0 !important;
     }
 }
 
