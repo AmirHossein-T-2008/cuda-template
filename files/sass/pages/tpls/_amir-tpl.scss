@@ -71,14 +71,14 @@ p {
 
 .header-section {
     background-color: $primary;
-    padding: 300px 0 100px;
+    padding: 100px 0 140px;
     width: 100%;
 
     &-title {
-        font-weight: 700;
-        max-width: 630px;
-        font-size: 26px;
-        margin: 0 auto 30px;
+        font-weight: bold;
+        max-width: 1000px;
+        font-size: 30px;
+        margin: 0 auto 50px;
     }
 }
 
@@ -87,8 +87,7 @@ p {
 ===================================================== */
 
 .navbar {
-    padding: 30px 0;
-    // width: 100%;
+    padding: 45px 0 30px;
     background-color: $primary;
 
     &-toggler {
@@ -107,14 +106,16 @@ p {
 
 
 .nav-list {
-    gap: 15px;
+    gap: 18px;
     background-color: mediumpurple;
     border-radius: 5px;
     padding: 20px 0;
     width: 100%;
+    position: relative;
+    z-index: 9;
 
     .nav-a {
-        font-size: 18px;
+        font-size: 17px;
         padding: 0;
 
         &:hover {
@@ -125,12 +126,20 @@ p {
     }
 }
 
+.logo {
+    width: 130px;
+}
+
 /* =====================================================
    BUTTON - t8
 ===================================================== */
 
 .btn-t8 {
     @include button-outline;
+    width: 255px;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /* =====================================================
@@ -152,7 +161,7 @@ p {
 .portfolio-section {
     background-color: #ffdd99 !important;
     color: #393939;
-    padding: 60px 0 100px;
+    padding: 100px 0 170px;
 
     &--btn {
         background-color: rgba(0, 0, 0, 0.08);
@@ -169,6 +178,12 @@ p {
     &-btns {
         margin-bottom: 60px;
         gap: 10px;
+    }
+}
+
+.portfolio-section-btns{
+    .nav-link{
+        width: 80px;
     }
 }
 
@@ -200,7 +215,8 @@ p {
 .aboutUs-section {
     background-color: #d74680;
     color: $white;
-    padding: 60px 0 100px;
+    padding: 100px 0 120px;
+
 }
 
 /* =====================================================
@@ -251,17 +267,30 @@ p {
     .my-collapse {
         position: unset;
     }
+
+    .header-section-title {
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 992px) {
     .aboutUs-tpl-a8 {
-        width: 150px;
+        width: 100px;
         flex-direction: row !important;
         text-align: left !important;
     }
-    .card{
+
+    .aboutUs-tpl-a8-img{
+        max-width: 100px;
+    }
+
+    .card {
         padding: 0 !important;
     }
 }
 
-// @media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1100px;
+    }
+}

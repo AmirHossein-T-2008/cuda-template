@@ -8,10 +8,12 @@
 .servicessection-tpl-a8 {
     background-color: $secondary;
     text-align: center;
-    padding: 60px 0 100px;
+    padding: 90px 0 150px;
 
 }
 .servicescard-tpl-a8 {
+
+    // scimage-a8{}
 
     &-img{
         max-width: auto;
@@ -20,11 +22,11 @@
     .img-wrapper {
         width: 100%;
         height: 150px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 
     &-title {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 600;
         margin-bottom: 15px;
     }
@@ -38,9 +40,4 @@
 .card-img-top{
     min-width: max-content;
     max-width: 100px;
-    margin-bottom: 20px;
-}
-
-.card-body{
-    padding: 0;
 }

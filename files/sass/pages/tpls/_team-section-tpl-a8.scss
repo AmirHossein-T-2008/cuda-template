@@ -2,12 +2,17 @@
     background-color: #e7f1f8;
     font-family: 'Titillium Web', sans-serif;
     color: $text-dark;
-    padding: 60px 0 100px;
+    padding: 100px 0 150px;
 
-    &-img{
+
+    &-img {
         max-width: 200px;
-        margin: 0 auto;
+        margin: 0 auto 30px;
     }
+
+    // .tsinfo-a8{
+
+    // }
 
     .team-info {
         color: #30bae7;
@@ -18,7 +23,7 @@
 
     .team-cards-title {
         font-weight: 700;
-        font-size: 20px;
+        font-size: 22px;
         display: block;
         margin-bottom: 5px;
     }

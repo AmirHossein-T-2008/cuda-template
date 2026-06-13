@@ -2,10 +2,10 @@
     background-color: $white;
     color: $text-dark;
     text-align: center;
-    padding: 60px 0;
+    padding: 120px 0 50px;
 
     .rate-img {
-        max-width: 220px;
+        max-width: 170px;
         margin: 0 auto 40px;
         display: block;
     }
@@ -15,7 +15,7 @@
         margin-bottom: 30px;
 
         .rate-title {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 600;
             color: $text-dark;
             line-height: 1.5;

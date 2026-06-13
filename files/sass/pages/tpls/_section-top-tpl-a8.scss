@@ -1,8 +1,9 @@
 .sections-top {
     &-title {
         font-weight: 700;
-        font-size: 30px;
+        font-size: 40px;
         line-height: normal;
+        letter-spacing: 2px;
 
         &::after {
             content: '';
@@ -30,7 +31,7 @@
 
     &-desc {
         max-width: 580px;
-        margin: 0 auto 55px;
+        margin: 0 auto 45px;
         font-size: 16px;
         font-weight: 100;
         line-height: 1.5;
